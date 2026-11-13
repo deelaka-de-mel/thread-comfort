@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shop — Thread & Comfort</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&family=Inter:wght@400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <nav class="navbar">
+    <a href="index.html" class="logo">Thread & Comfort</a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="shop.html">Shop</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <button class="menu-toggle" id="menuToggle">&#9776;</button>
+  </nav>
+
+  <main class="shop-page">
+
+    <!-- Page Header -->
+    <div class="shop-header">
+      <h1>Our Catalogue</h1>
+      <p>Everything we carry — tap any item to inquire.</p>
+    </div>
+
+    <!-- Filter Bar -->
+    <div class="filter-bar">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="bedsheet">Bedsheets</button>
+      <button class="filter-btn" data-filter="bandana">Bandanas</button>
+    </div>
+
+    <!-- Product Grid -->
+    <div class="product-grid shop-grid" id="shopGrid">
+
+      <!-- ── BEDSHEETS ── -->
+      <div class="product-card" data-category="bedsheet">
+        <div class="card-img-wrap">
+          <img src="images/sheet-1.jpg" alt="Pure Cotton Bedsheet" loading="lazy" />
+        </div>
+        <div class="card-body">
+          <h3>Pure Cotton Bedsheet</h3>
+          <span class="tag">Bedsheet</span>
+          <p class="product-desc">100% cotton, breathable and cool. Available in single and double sizes.</p>
+          <p class="price">Rs. 2,500</p>
+          <a href="contact.html?item=Pure+Cotton+Bedsheet" class="btn-outline">Inquire to Order</a>
+        </div>
+      </div>
+
+      <div class="product-card" data-category="bedsheet">
+        <div class="card-img-wrap">
+          <img src="images/sheet-2.jpg" alt="Microfibre Bedsheet" loading="lazy" />
+        </div>
+        <div class="card-body">
+          <h3>Microfibre Bedsheet</h3>
+          <span class="tag">Bedsheet</span>
+          <p class="product-desc">Ultra-soft microfibre. Wrinkle-resistant and easy to wash.</p>
+          <p class="price">Rs. 3,200</p>
+          <a href="contact.html?item=Microfibre+Bedsheet" class="btn-outline">Inquire to Order</a>
+        </div>
+      </div>
+
+      <div class="product-card" data-category="bedsheet">
+        <div class="card-img-wrap">
+          <img src="images/sheet-3.jpg" alt="Striped Cotton Bedsheet" loading="lazy" />
+        </div>
+        <div class="card-body">
+          <h3>Striped Cotton Bedsheet</h3>
+          <span class="tag">Bedsheet</span>
+          <p class="product-desc">Classic stripe pattern. Lightweight and durable for daily use.</p>
+          <p class="price">Rs. 2,800</p>
+          <a href="contact.html?item=Striped+Cotton+Bedsheet" class="btn-outline">Inquire to Order</a>
+        </div>
+      </div>
+
+      <div class="product-card" data-category="bedsheet">
+        <div class="card-img-wrap">
+          <img src="images/sheet-4.jpg" alt="Floral Bedsheet Set" loading="lazy" />
+        </div>
+        <div class="card-body">
+          <h3>Floral Bedsheet Set</h3>
+          <span class="tag">Bedsheet</span>
+          <p class="product-desc">Includes fitted sheet + two pillowcases. Soft floral print.</p>
+          <p class="price">Rs. 4,500</p>
+          <a href="contact.html?item=Floral+Bedsheet+Set" class="btn-outline">Inquire to Order</a>
+        </div>
+      </div>
+
+      <!-- ── BANDANAS ── -->
+      <div class="product-card" data-category="bandana">
+        <div class="card-img-wrap">
+          <img src="images/bandana-1.jpg" alt="Paisley Bandana" loading="lazy" />
+        </div>
+        <div class="card-body">
+          <h3>Paisley Bandana</h3>
+          <span class="tag">Bandana</span>
+          <p class="product-desc">Classic paisley print. 100% cotton, 55×55cm.</p>
+          <p class="price">Rs. 450</p>
+          <a href="contact.html?item=Paisley+Bandana" class="btn-outline">Inquire to Order</a>
+        </div>
+      </div>
+
+      <div class="product-card" data-category="bandana">
+        <div class="card-img-wrap">
+          <img src="images/bandana-2.jpg" alt="Classic Solid Bandana" loading="lazy" />
+        </div>
+        <div class="card-body">
+          <h3>Classic Solid Bandana</h3>
+          <span class="tag">Bandana</span>
+          <p class="product-desc">Solid colour, versatile everyday wear. Multiple colours available.</p>
+          <p class="price">Rs. 350</p>
+          <a href="contact.html?item=Classic+Solid+Bandana" class="btn-outline">Inquire to Order</a>
+        </div>
+      </div>
+
+      <div class="product-card" data-category="bandana">
+        <div class="card-img-wrap">
+          <img src="images/bandana-3.jpg" alt="Tie-Dye Bandana" loading="lazy" />
+        </div>
+        <div class="card-body">
+          <h3>Tie-Dye Bandana</h3>
+          <span class="tag">Bandana</span>
+          <p class="product-desc">Hand-dyed tie-dye pattern. Each one is slightly unique.</p>
+          <p class="price">Rs. 500</p>
+          <a href="contact.html?item=Tie-Dye+Bandana" class="btn-outline">Inquire to Order</a>
+        </div>
+      </div>
+
+      <div class="product-card" data-category="bandana">
+        <div class="card-img-wrap">
+          <img src="images/bandana-4.jpg" alt="Geometric Print Bandana" loading="lazy" />
+        </div>
+        <div class="card-body">
+          <h3>Geometric Print Bandana</h3>
+          <span class="tag">Bandana</span>
+          <p class="product-desc">Bold geometric pattern. Great for styling or everyday use.</p>
+          <p class="price">Rs. 480</p>
+          <a href="contact.html?item=Geometric+Print+Bandana" class="btn-outline">Inquire to Order</a>
+        </div>
+      </div>
+
+    </div>
+    <!-- end shop-grid -->
+
+    <!-- Empty state (shown when filter has no results) -->
+    <div class="empty-state" id="emptyState" style="display:none;">
+      <p>No items in this category yet.</p>
+    </div>
+
+  </main>
+
+  <footer>
+    <p>© 2026 Thread & Comfort. All rights reserved.</p>
+    <p><a href="contact.html">Contact us to order</a></p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

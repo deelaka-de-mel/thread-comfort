@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — Thread & Comfort</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&family=Inter:wght@400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <nav class="navbar">
+    <a href="index.html" class="logo">Thread & Comfort</a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="shop.html">Shop</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <button class="menu-toggle" id="menuToggle">&#9776;</button>
+  </nav>
+
+  <main class="contact-page">
+    <div class="contact-wrap">
+      <h1>Place an Order</h1>
+      <p class="contact-sub">Browse the catalogue, pick what you like, and reach out — we'll confirm availability and arrange delivery.</p>
+
+      <!-- WhatsApp Button -->
+      <a href="https://wa.me/94XXXXXXXXX?text=Hi%2C+I'd+like+to+order+from+Thread+%26+Comfort"
+         class="btn whatsapp-btn" target="_blank">
+        💬 Order via WhatsApp
+      </a>
+
+      <div class="divider">or send a message below</div>
+
+      <!-- Contact Form (uses Formspree — free) -->
+      <form class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+        <div class="form-group">
+          <label for="name">Your Name</label>
+          <input type="text" id="name" name="name" placeholder="Kasun Perera" required />
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone" name="phone" placeholder="07X XXX XXXX" required />
+        </div>
+        <div class="form-group">
+          <label for="itemField">Item You Want</label>
+          <input type="text" id="itemField" name="item" placeholder="e.g. Pure Cotton Bedsheet" />
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4" placeholder="Any colour preference, size, quantity..."></textarea>
+        </div>
+        <button type="submit" class="btn" style="width:100%; text-align:center;">Send Inquiry</button>
+      </form>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2026 Thread & Comfort. All rights reserved.</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
