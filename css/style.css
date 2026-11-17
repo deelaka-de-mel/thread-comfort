@@ -82,7 +82,7 @@ body {
 /* ── Hero ── */
 .hero {
   min-height: 88vh;
-  background: url('../images/hero-bg.jpg') center/cover no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.08), rgba(0, 0, 0, 0.12)), url('../images/hero-bed.jpg') center/cover no-repeat;
   display: flex;
   align-items: center;
   padding: 0 5%;

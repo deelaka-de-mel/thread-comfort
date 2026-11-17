@@ -13,7 +13,7 @@ navLinks?.querySelectorAll('a').forEach(link => {
 });
 
 // ── Contact page: WhatsApp link with item from URL ──
-const WHATSAPP_NUMBER = '94712658999'; // <-- replace with your number (country code, no + or spaces)
+const WHATSAPP_NUMBER = '94712658999';
 
 window.addEventListener('DOMContentLoaded', () => {
   const waBtn = document.getElementById('whatsappBtn');
@@ -50,8 +50,8 @@ filterBtns.forEach(btn => {
     let visible = 0;
 
     cards.forEach(card => {
-      // CHANGED: Use .includes() instead of === 
-      const match = filter === 'all' || card.dataset.category.includes(filter);
+      const categories = card.dataset.category.split(' ');
+      const match = filter === 'all' || categories.includes(filter);
       
       card.classList.toggle('hidden', !match);
       if (match) visible++;
